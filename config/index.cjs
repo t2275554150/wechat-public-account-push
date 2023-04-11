@@ -8,32 +8,32 @@
 const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_ID
-  APP_ID: '',
+  APP_ID: 'wx2c4a9f061e9eb384',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '',
+  APP_SECRET: 'fb6ec97a662d21eb9759e508d911c79e',
 
   PROVINCE: '山西',
-  CITY: '忻州',
+  CITY: '太原',
 
   USERS: [
     {
       // 想要发送的人的名字
-      name: '宝贝',
+      name: '郭宇惠',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'o9-OK6NZOyl_69mFhW382yhcrW9M',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: '',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '2-27',
+      horoscopeDate: '01-08',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '彤彤阴历', year: '2004', date: '02-08',
+          type: '*生日', name: '郭宇惠阴历', year: '2002', date: '01-08',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '彤彤阳历', year: '2004', date: '02-27',
+          type: '生日', name: '郭宇惠阳历', year: '2002', date: '01-08',
         },
         {
           type: '节日', name: '相识纪念日', year: '2022', date: '08-03',
@@ -51,13 +51,13 @@ const USER_CONFIG = {
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '',
+  CALLBACK_TEMPLATE_ID: 'o9-OK6PGAcFIAk8D7SsyPJFv8_Gc',
 
   CALLBACK_USERS: [
     {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'o9-OK6PGAcFIAk8D7SsyPJFv8_Gc',
     }
   ],
 
