@@ -19,9 +19,9 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '郭宇惠',
+      name: '郭宇慧',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'o9-OK6NZOyl_69mFhW382yhcrW9M',
+      id: 'o9-OK6PGAcFIAk8D7SsyPJFv8_Gc',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: '2NjbTpIfO1LSg3kWASwAVHsWhkg8Lpf-veEyUHhEpfY',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
@@ -29,11 +29,11 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         //{
-         // type: '*生日', name: '郭宇惠阴历', year: '2002', date: '01-08',
+         // type: '*生日', name: '郭宇慧阴历', year: '2002', date: '01-08',
       //  },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '郭宇惠阳历', year: '2002', date: '01-08',
+          type: '生日', name: '郭宇慧阳历', year: '2002', date: '01-08',
         },
        // {
         //  type: '节日', name: '相识纪念日', year: '2022', date: '08-03',
@@ -41,8 +41,8 @@ const USER_CONFIG = {
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
-        // 在一起的日子
-        { keyword: 'love_day', date: '2022-08-23' },
+         在一起的日子
+        { keyword: 'love_day', date: '2023-04-16' },
         // 结婚纪念日
        // { keyword: 'marry_day', date: '2022-09-09' },
       ],
