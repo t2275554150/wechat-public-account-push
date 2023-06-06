@@ -8,10 +8,10 @@
 const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_ID
-  APP_ID: 'wx2c4a9f061e9eb384',
+  APP_ID: '',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: 'fb6ec97a662d21eb9759e508d911c79e',
+  APP_SECRET: '',
 
   PROVINCE: '山西',
   CITY: '太原',
@@ -19,21 +19,21 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '郭宇慧',
+      name: '',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'o9-OK6NZOyl_69mFhW382yhcrW9M',
+      id: '',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '2NjbTpIfO1LSg3kWASwAVHsWhkg8Lpf-veEyUHhEpfY',
+      useTemplateId: '',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '01-08',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         //{
-         // type: '*生日', name: '郭宇慧阴历', year: '2002', date: '01-08',
+         // type: '*生日', name: '阴历', year: '2002', date: '01-08',
       //  },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '郭宇慧阳历', year: '2002', date: '01-08',
+          type: '生日', name: '阳历', year: '2002', date: '01-08',
         },
        // {
         //  type: '节日', name: '相识纪念日', year: '2022', date: '08-03',
